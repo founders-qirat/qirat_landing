@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export function Hero() {
   return (
@@ -14,12 +15,14 @@ export function Hero() {
         </p>
 
         <div className="flex flex-col items-center space-y-4">
-          <Button 
-            size="lg" 
-            className="bg-[#F59E0B] hover:bg-[#D97706] text-white text-lg px-10 py-7 font-bold rounded-xl shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1"
-          >
-            Start Child Assessment & Enroll
-          </Button>
+          <Link href="/assessment">
+            <Button 
+              size="lg" 
+              className="bg-[#F59E0B] hover:bg-[#D97706] text-white text-lg px-10 py-7 font-bold rounded-xl shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1"
+            >
+              Start Child Assessment & Enroll
+            </Button>
+          </Link>
           
           <div className="flex items-center space-x-2 text-xs font-semibold tracking-wider text-[#064E3B]/70 uppercase">
             <span>Strict 1:10 Teacher-to-Student Ratio</span>
