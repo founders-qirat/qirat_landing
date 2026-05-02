@@ -1,6 +1,6 @@
 import { Navigation } from "@/components/Navigation";
 import { Hero } from "@/components/Hero";
-import { ScarcitySection } from "@/components/ScarcitySection";
+import { PlatformVideo } from "@/components/PlatformVideo";
 import { AssessmentCard } from "@/components/AssessmentCard";
 import { Features } from "@/components/Features";
 import { Footer } from "@/components/Footer";
@@ -15,7 +15,7 @@ export default function Home() {
         
         <AssessmentCard />
 
-        <ScarcitySection />
+        <PlatformVideo />
         
         <Features />
         
