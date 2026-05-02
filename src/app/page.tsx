@@ -1,7 +1,7 @@
-
 import { Navigation } from "@/components/Navigation";
 import { Hero } from "@/components/Hero";
-import { Features } from "@/components/Features";
+import { ValueProps } from "@/components/ValueProps";
+import { Methodology } from "@/components/Methodology";
 import { Testimonials } from "@/components/Testimonials";
 import { Footer } from "@/components/Footer";
 
@@ -13,9 +13,11 @@ export default function Home() {
       <main>
         <Hero />
         
-        <Testimonials />
+        <ValueProps />
         
-        <Features />
+        <Methodology />
+        
+        <Testimonials />
       </main>
 
       <Footer />
