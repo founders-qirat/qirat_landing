@@ -1,7 +1,8 @@
+
 import { Navigation } from "@/components/Navigation";
 import { Hero } from "@/components/Hero";
 import { Features } from "@/components/Features";
-import { PlatformVideo } from "@/components/PlatformVideo";
+import { Testimonials } from "@/components/Testimonials";
 import { Footer } from "@/components/Footer";
 
 export default function Home() {
@@ -12,7 +13,7 @@ export default function Home() {
       <main>
         <Hero />
         
-        <PlatformVideo />
+        <Testimonials />
         
         <Features />
       </main>

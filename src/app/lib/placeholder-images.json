@@ -1,3 +1,4 @@
+
 {
   "placeholderImages": [
     {
@@ -11,6 +12,24 @@
       "description": "Certified Aalim",
       "imageUrl": "https://picsum.photos/seed/qirat-teacher/200/200",
       "imageHint": "professional teacher"
+    },
+    {
+      "id": "parent-1",
+      "description": "Parent Testimonial 1",
+      "imageUrl": "https://picsum.photos/seed/parent1/100/100",
+      "imageHint": "person face"
+    },
+    {
+      "id": "parent-2",
+      "description": "Parent Testimonial 2",
+      "imageUrl": "https://picsum.photos/seed/parent2/100/100",
+      "imageHint": "person face"
+    },
+    {
+      "id": "parent-3",
+      "description": "Parent Testimonial 3",
+      "imageUrl": "https://picsum.photos/seed/parent3/100/100",
+      "imageHint": "person face"
     }
   ]
 }
