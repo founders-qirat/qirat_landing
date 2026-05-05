@@ -159,7 +159,7 @@ export function Navigation() {
 
  {/* 🔹 CTA */}
 <a
-  href="https://wa.me/8383054768?text=Assalamu%20Alaikum%2C%20I%20want%20to%20check%20batch%20availability%20for%20Qirat%20classes"
+  href="https://wa.me/+918383054768?text=Assalamu%20Alaikum%2C%20I%20want%20to%20check%20batch%20availability%20for%20Qirat%20classes"
   target="_blank"
   rel="noopener noreferrer"
 >
