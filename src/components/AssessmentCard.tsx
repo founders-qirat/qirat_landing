@@ -129,10 +129,44 @@ export function AssessmentCard() {
     }
   };
 
-  const handleFormSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitted(true);
+const handleFormSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+
+  // 🔥 Convert answers object → structured array
+  const formattedAnswers = Object.entries(answers).map(
+    ([questionId, answer]) => ({
+      question: QUESTIONS.find(q => q.id === Number(questionId))?.text || "",
+      answer,
+    })
+  );
+
+  const payload = {
+    name: formData.name,
+    email: formData.email,
+    whatsapp: formData.whatsapp,
+    answers: formattedAnswers,
   };
+
+  try {
+    const res = await fetch("/api/assessment", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(payload),
+    });
+
+    const data = await res.json();
+
+    console.log("Saved:", data);
+
+    if (data.success) {
+      setIsSubmitted(true); // ✅ ONLY after DB save
+    }
+  } catch (error) {
+    console.error("Error saving:", error);
+  }
+};
 
   if (isSubmitted) {
     return (

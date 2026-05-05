@@ -23,7 +23,7 @@ export function Footer() {
         <div className="space-y-4">
           <h4 className="font-bold uppercase tracking-wider text-xs text-white/50">Support</h4>
           <ul className="space-y-2">
-            <li><Link href="#" className="hover:text-[#F59E0B] transition-colors">Contact Us</Link></li>
+            <li><Link href="#" className="hover:text-[#F59E0B] transition-colors">Contact Us: founders@qirat.in</Link></li>
             <li><Link href="#" className="hover:text-[#F59E0B] transition-colors">Privacy Policy</Link></li>
             <li><Link href="#" className="hover:text-[#F59E0B] transition-colors">Terms of Service</Link></li>
           </ul>

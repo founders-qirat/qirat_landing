@@ -7,7 +7,7 @@ const FEATURES = [
     icon: GraduationCap,
   },
   {
-    title: "Holistic Curriculum",
+    title: "Batch Plans & Pricing",
     description: "Moving beyond basic reading to proper Tajweed, Tarjuma, and character building. We provide a 360-degree approach to Islamic excellence that resonates with modern kids.",
     icon: BookOpen,
   },
@@ -21,11 +21,11 @@ const FEATURES = [
 const VALUE_PROPS = [
   {
     title: "Proprietary Live Platform",
-    description: "Unlike Zoom or Meet, our platform is built specifically for Quranic education with interactive whiteboard tools.",
+    description: "Our proprietary platform is built specifically for Quranic education with interactive whiteboard tools.",
     icon: Zap,
   },
   {
-    title: "1:10 Teacher Ratio",
+    title: "Small Batches",
     description: "We strictly cap our batches to ensure every child gets multiple opportunities to recite in every single session.",
     icon: Users,
   },

@@ -3,11 +3,11 @@ import { Zap, Users, Target, Check } from "lucide-react";
 const VALUE_PROPS = [
   {
     title: "Proprietary Live Platform",
-    description: "Unlike Zoom or Meet, our platform is built specifically for Quranic education with interactive whiteboard tools.",
+    description: "Our proprietary platform is built specifically for Quranic education with interactive whiteboard tools.",
     icon: Zap,
   },
   {
-    title: "1:10 Teacher Ratio",
+    title: "Small Batches",
     description: "We strictly cap our batches to ensure every child gets multiple opportunities to recite in every single session.",
     icon: Users,
   },

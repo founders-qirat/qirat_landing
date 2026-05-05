@@ -8,20 +8,20 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 const TESTIMONIALS = [
   {
     name: "Sarah Ahmed",
-    location: "London, UK",
-    quote: "Finding a teacher who understands kids' psychology was our biggest hurdle. At Qirat, the Aalims are so patient. My daughter actually looks forward to her Tajweed sessions now!",
+    location: "Greater Noida, IN",
+    quote: "ng a teacher who understands kids' psychology was our biggest hurdle. At Qirat, the Aalims are so patient. My daughter actually looks forward to her Tajweed sessions now!Finding the right teacher for my child wasn’t easy. What stood out at Qirat was how patient and understanding the Aalims are. My daughter genuinely looks forward to her Tajweed classes now.",
     avatar: PlaceHolderImages.find(img => img.id === "parent-1")?.imageUrl,
   },
   {
     name: "Omar Siddiqui",
     location: "Dubai, UAE",
-    quote: "The 1:10 ratio is not just a marketing claim. I've sat through sessions and my son recites multiple times. The interactive dashboard for parents is also a game changer.",
+    quote: "I've sat through sessions and my son recites multiple times. The interactive dashboard for parents is also a very helpful.",
     avatar: PlaceHolderImages.find(img => img.id === "parent-2")?.imageUrl,
   },
   {
     name: "Fatima Khan",
-    location: "New Jersey, USA",
-    quote: "We've tried three different online platforms before Qirat. This is the first time we're seeing real progress in Tarjuma and character building, not just robotic reading.",
+    location: "Indore, IN",
+    quote: "We've tried few different online platforms before Qirat. This is the first time we're seeing real progress in Tarjuma and character building, not just robotic reading.",
     avatar: PlaceHolderImages.find(img => img.id === "parent-3")?.imageUrl,
   }
 ];
@@ -35,7 +35,7 @@ export function Testimonials() {
             Trusted by Parents Globally
           </h2>
           <p className="text-xl text-muted-foreground font-body max-w-2xl mx-auto">
-            Join 500+ families from the UK, USA, UAE, and India who have chosen Qirat for their child's Islamic excellence.
+            Join 100+ families from the UK, USA, UAE, and India who have chosen Qirat for their child's Islamic excellence.
           </p>
         </div>
 
