@@ -52,20 +52,69 @@ export function Methodology() {
               The Qirat Methodology
             </h2>
 
-            <p className="text-xl text-muted-foreground font-body">
-A well-structured Quran learning program focused on helping your child improve consistently, with guided sessions, regular practice, and clear progress tracking.
-            </p>
+{/* <p className="text-xl text-muted-foreground font-body">
+A complete Quran learning experience designed to help your child improve consistently with guided sessions, active practice, and clear progress you can see and hear.
+</p> */}
 
-            <div className="space-y-3 text-[#064E3B] font-medium">
-           <p>• Live recitation with real-time correction</p>
-<p>• Small batches for personal attention</p>
-<p>• Practice tasks with progress tracking</p>
-<p>• Weekly goals & Islamic learning activities</p>
-<p>• Gamified system with points & leaderboard</p>
-<p>• Akhlaaq (character building) sessions</p>
-<p>• Quiz challenges for reinforcement</p>
-<p>• Parent dashboard with recordings & feedback</p>
-            </div>
+<div className="space-y-5 text-[#064E3B] mt-6">
+
+  <div>
+    <p className="font-semibold">Live Quran Learning with Real-Time Correction</p>
+    <p className="text-sm text-muted-foreground">
+      Your child is heard, guided, and corrected instantly by a Muallima — ensuring proper pronunciation from day one.
+    </p>
+  </div>
+
+  <div>
+    <p className="font-semibold">Small, Focused Batches — No Child Left Behind</p>
+    <p className="text-sm text-muted-foreground">
+      Limited group sizes mean every child gets personal attention, not lost in a crowd.
+    </p>
+  </div>
+
+  <div>
+    <p className="font-semibold">Active Practice System (Not Just Listening)</p>
+    <p className="text-sm text-muted-foreground">
+      From live assignments to listen-and-repeat drills, your child stays actively engaged throughout.
+    </p>
+  </div>
+
+  <div>
+    <p className="font-semibold">Structured Progress You Can See & Hear</p>
+    <p className="text-sm text-muted-foreground">
+      Track progress with weekly feedback, reports, and recorded recitations.
+    </p>
+  </div>
+
+  <div>
+    <p className="font-semibold">From Qaida to Confidence — A Clear Learning Path</p>
+    <p className="text-sm text-muted-foreground">
+      A step-by-step system guiding your child from basics to fluent recitation with understanding.
+    </p>
+  </div>
+
+  <div>
+    <p className="font-semibold">Akhlaaq & Islamic Habit Building</p>
+    <p className="text-sm text-muted-foreground">
+      Beyond reading — we nurture discipline, Sunnah habits, and strong character.
+    </p>
+  </div>
+
+  <div>
+    <p className="font-semibold">Interactive Learning That Kids Enjoy</p>
+    <p className="text-sm text-muted-foreground">
+      Games, quizzes, and activities make learning engaging and enjoyable.
+    </p>
+  </div>
+
+  <div>
+    <p className="font-semibold">Complete Parent Transparency & Involvement</p>
+    <p className="text-sm text-muted-foreground">
+      Stay fully involved with clear visibility into performance, feedback, and improvement.
+    </p>
+  </div>
+
+</div>
           </div>
 
           {/* RIGHT (VIDEO) */}

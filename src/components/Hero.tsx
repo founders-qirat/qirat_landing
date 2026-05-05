@@ -20,7 +20,7 @@ export function Hero() {
 
         {/* 🔹 SUBTEXT */}
         <p className="text-lg md:text-2xl text-muted-foreground max-w-3xl mx-auto font-body leading-relaxed">
-          Live, interactive sessions led by certified Aalims, designed to help your child recite with confidence, master Tajweed, and understand the Quran and Islamic teachings in a structured, engaging way.
+          Live, interactive sessions led by certified Aalims, designed to help your child recite with confidence, master Tajweed, and understand the Islamic teachings in a structured, engaging way.
         </p>
 
         {/* 🔹 CTA */}
