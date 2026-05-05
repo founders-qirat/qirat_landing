@@ -240,7 +240,7 @@ A complete Quran learning experience designed to help your child improve consist
 
       {/* CTA */}
       <a
-        href="https://wa.me/918853375070?text=Assalamu%20Alaikum%2C%20I%20am%20interested%20in%20your%20Quran%20program"
+        href="https://wa.me/+918383054768?text=Assalamu%20Alaikum%2C%20I%20am%20interested%20in%20your%20Quran%20program"
         target="_blank"
       >
         <button className="w-full bg-yellow-400 text-black py-3 rounded-lg font-semibold hover:scale-105 transition">
