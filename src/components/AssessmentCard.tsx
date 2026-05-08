@@ -290,7 +290,7 @@ const handleFormSubmit = async (e: React.FormEvent) => {
                   type="submit"
                   className="w-full bg-[#F59E0B] hover:bg-[#D97706] text-white py-8 h-auto text-xl font-bold rounded-xl shadow-lg transition-all hover:scale-[1.02]"
                 >
-                  Reveal My Report
+                  Submit
                 </Button>
               </form>
             ) : (
